@@ -22,6 +22,6 @@ $(document).ready(function() {
 
     // Xử lý khi người dùng nhấn nút "Đóng" trong modal
     $("#paymentSuccessModal").on("hidden.bs.modal", function () {
-        window.location.href = "demo.html"; // Chuyển hướng về trang chủ
+        window.location.href = "index.html"; // Chuyển hướng về trang chủ
     });
 });
